@@ -15,8 +15,7 @@ int main()
 		cin >> score;
 	}
 
-
-
+	// Grade scores
 	if (score <= 100 && score >= 90)
 		cout << "That is an A!" << endl;
 	else if (score < 90 && score >= 80)
